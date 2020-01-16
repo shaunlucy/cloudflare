@@ -18,10 +18,10 @@ def main():
                     zone_id = zone_info['id']
 
                     dns_records = [
-                        {'type':'A','name':'@','content':'204.188.215.213','proxied':True},
-                        {'type':'A','name':'www','content':'204.188.215.213','proxied':True},
-                        {'type':'A','name':'wap','content':'204.188.215.213','proxied':True},
-                        {'type':'A','name':'m','content':'204.188.215.213','proxied':False}
+                        {'type':'A','name':'@','content':'204.188.0.0','proxied':True},
+                        {'type':'A','name':'www','content':'204.188.0.0','proxied':True},
+                        {'type':'A','name':'wap','content':'204.188.0.0','proxied':True},
+                        {'type':'A','name':'m','content':'204.188.0.0','proxied':False}
                     ]
 
                     for dns_record in dns_records:
